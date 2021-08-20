@@ -1,2 +1,0 @@
-class ISpecificationRepository {}
-export { ISpecificationRepository };
