@@ -3,3 +3,4 @@ dist
 .vscode
 tmp
 file.csv
+yarn-error.log
