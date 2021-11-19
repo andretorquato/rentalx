@@ -9,7 +9,6 @@ class UsersRepositoryInMemory implements IUsersRepository {
     email,
     name,
     password,
-    avatar,
   }: ICreateUserDTO): Promise<void> {
     const user = new User();
     Object.assign(user, {
@@ -17,7 +16,6 @@ class UsersRepositoryInMemory implements IUsersRepository {
       name,
       email,
       password,
-      avatar,
     });
     this.users.push(user);
   }
